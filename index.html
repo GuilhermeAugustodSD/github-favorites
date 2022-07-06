@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+
   <title>GitHub Favorites</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="app">
     <header>
       <h1>Github Favorites</h1>
       <div class="search">
-        <label for="input-search"></label>
+        <label for="input-search" class="sr-only">Usuário do GitHub</label>
         <input id="input-search" type="text" placeholder="Usuário do Github">
         <button>&plus;</button>
       </div>
@@ -38,7 +42,7 @@
           <td class="repositories">23</td>
           <td class="followers">2</td>
           <td>
-            <button>&times;</button>
+            <button class="x">&times;</button>
           </td>
         </tr>
       </tbody>
