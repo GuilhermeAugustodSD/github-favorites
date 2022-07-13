@@ -10,7 +10,7 @@
     --ff-primary: "Poppins", sans-serif;
     --text-color: #303030;
 
-    --hue: 194;
+    --hue: 2;
     --primary-color: hsl(var(--hue), 100%, 63%);
 }
 
